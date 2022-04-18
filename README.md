@@ -23,6 +23,7 @@ Secure transport for Mirror
 10. With (K, IV), the client and server exchange data and encrypt and decrypt messages.
 
 ## How to use
+0. Enable "Allow 'unsafe' code" in Player Settings  
 1. Add MiTransport.cs to NetworkManager game object.  
 2. Drag current transport to MiTransport innerTransport field.  
 3. Replace transport on your NetworkManager to MiTransport.
