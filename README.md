@@ -7,6 +7,9 @@ Secure transport for Mirror
 + Only encrypt message sent by reliable channel
 
 ## How it work
+
+![mi_sequence](https://user-images.githubusercontent.com/9010717/163846736-6f06c70e-d1c3-4547-a575-6d37ace36a85.png)
+
 0. Pre-generate the Rsa key pair
 1. Client random AES key, iv (K1, IV1)
 2. The client encrypts (K1, IV1) and sends it to the server using the rsa public key.
