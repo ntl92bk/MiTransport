@@ -182,6 +182,12 @@ namespace LamNT.MiTransport
         {
             _innerTransport.ClientConnect(address);
         }
+
+        public override void ClientConnect(Uri uri)
+        {
+            _innerTransport.ClientConnect(uri);
+        }
+
         public override void ClientSend(ArraySegment<byte> segment, int channelId)
         {
             _clientConnection?.SendData(segment, channelId);
