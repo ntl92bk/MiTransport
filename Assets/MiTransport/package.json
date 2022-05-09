@@ -1,0 +1,10 @@
+{
+  "name": "ntl92bk.networking.mitransport",
+  "displayName": "Mirror Networking Encrypt Library",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "description": "An Encrypt lib for Mirror Networking",
+  "dependencies": {
+  },
+  "author": "ntl92bk"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ntl92bk.networking.mitransport.editor",
+    "rootNamespace": "",
+    "references": [
+        "Mirror",
+        "Mirror.Editor",
+        "Mirror.Authenticators",
+        "Mirror.Components",
+        "Mirror.CompilerSymbols",
+        "Unity.Mirror.CodeGen",
+        "ntl92bk.networking.mitransport.runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
